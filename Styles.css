@@ -1,0 +1,122 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+body {
+    background: linear-gradient(to bottom, #E6E6FA, #947BB3);
+  }
+  
+  .navbar-nav {
+      margin-left: auto;
+  }
+  
+  .navbar-nav .nav-link:hover {
+      color: #6c757d;
+      text-decoration: underline; /* Add underline effect on hover */
+  }
+  
+  a {
+    color: #6c757d;
+  }
+  
+  
+  .hero-profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+  
+  .hero-profile img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #E6E6FA;
+    margin: 50px auto;
+    padding: 4px;
+  }
+  
+  .hero-text {
+    color: #E6E6FA;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  .hero-title .hero-p {
+    margin: auto;
+  }
+  
+  .hero-image-container {
+       position: relative;
+       background-image: url("ColbertsLOGO.jpg");
+       height: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: absolute;
+  }
+  
+  #about-section img {
+    width: auto;
+    max-height: 500px;
+    border: solid 3px;
+    padding: 5px;
+    border-color: rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  #about-section {
+    margin: 20px;
+  }
+  
+  .about {
+    padding: 20px;
+  }
+  
+  .col-md-6 .about {
+    align-items: center;
+  }
+  
+  .img-fluid {
+    margin-top: 10px;
+    width:30%;
+  }
+  
+  .mission {
+    margin-top: 30px;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  h4 {
+    margin:auto;
+    padding: 10px;
+  }
+  .bootstrap {
+    margin-top: 35px;
+  }
+  
+  #contact-section {
+    margin: 50px auto;
+  }
+  
+  
+  .contact-link {
+      text-decoration: none;
+      color: inherit;
+  }
+  
+  .contact-link:hover {
+      color: #AD9388;
+  }
+  
+  
+  .nav-item {
+    text-align: right;
+  }
+  #footer-section {
+    color: #E6E6FA;
+    text-align: center;
+     background-color: rgba(0, 0, 0, 0.6)
+  }
+  
